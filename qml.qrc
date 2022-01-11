@@ -7,5 +7,6 @@
         <file>image/right/output.png</file>
         <file>OneView.qml</file>
         <file>image/background.png</file>
+        <file>image/background_prepare.png</file>
     </qresource>
 </RCC>

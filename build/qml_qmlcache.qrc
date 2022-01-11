@@ -5,5 +5,6 @@
         <file alias="font/lotteDreamLight.ttf">../font/lotteDreamLight.ttf</file>
         <file alias="image/right/output.png">../image/right/output.png</file>
         <file alias="image/background.png">../image/background.png</file>
+        <file alias="image/background_prepare.png">../image/background_prepare.png</file>
     </qresource>
 </RCC>

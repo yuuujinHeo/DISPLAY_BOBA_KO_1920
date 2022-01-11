@@ -110,7 +110,6 @@ Window {
     function maintenance(){
         __error = 0;
         //        console.log("main qml");
-        imageMaintenance.visible = true;
         imagePrepare.visible = false;
         rect_error.visible = false;
         //        text_error_1.visible = false;
@@ -123,7 +122,6 @@ Window {
         __error = 0;
         //        console.log("preoperation qml");
         imagePrepare.visible = true;
-        imageMaintenance.visible = false;
         rect_error.visible = false;
         //        text_error_1.visible = false;
         //        text_error_2.visible = false;
@@ -135,7 +133,6 @@ Window {
         __error = 0;
         //        console.log("restart qml");
         imagePrepare.visible = false;
-        imageMaintenance.visible = false;
         rect_error.visible = false;
         //        text_error_1.visible = false;
         //        text_error_2.visible = false;
@@ -176,9 +173,6 @@ Window {
         }
         delegate: contactDelegateOrder
     }
-
-
-
 
     Rectangle {
         id: rect_error
